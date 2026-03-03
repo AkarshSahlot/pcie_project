@@ -1,4 +1,4 @@
-# 🚀 Project 2.3: PCIe TLP Communication Framework using P4
+#  Project 2.3: PCIe TLP Communication Framework using P4
 
 This project demonstrates the versatility of the **P4 language** by applying it to low-layer device interconnect protocols, specifically **PCIe (Peripheral Component Interconnect Express)**. 
 
@@ -6,7 +6,7 @@ By combining **AMD Xilinx PCIe UltraScale+ IP** and **Vitis Networking P4 IP**, 
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The framework consists of three primary layers:
 
@@ -30,7 +30,7 @@ To manage the hardware, we provide **Polyglot P4TC** wrappers that interface wit
 
 ---
 
-## 🎯 Project Goals
+##  Project Goals
 
 ### Phase 1: Basic TLP Processing (Current Focus)
 - Parse and Deparse 128-bit/96-bit PCIe descriptors.
@@ -44,7 +44,7 @@ To manage the hardware, we provide **Polyglot P4TC** wrappers that interface wit
 
 ---
 
-## 🛠️ Implementation Details
+##  Implementation Details
 
 This repository provides a complete vertical slice of the **Project 2.3** framework, from hardware wires to high-level software APIs.
 
@@ -71,7 +71,7 @@ Provides the programmability required by the P4 ecosystem.
 
 ---
 
-## 🛠️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 - **Vivado Design Suite 2024.2+**
@@ -93,7 +93,7 @@ The simulation environment uses a mock PCIe root complex to verify TLP parsing:
 
 ---
 
-## 🤝 Acknowledgments
+##  Acknowledgments
 - **Mentor:** Takeoki Oura (@iHalt10)
 - **Support:** Ali Imran
 - **Resources:** [VNP4 Framework](https://github.com/iHalt10/vnp4_framework), [PCIe Subsystem](https://github.com/iHalt10/pcie_subsystem).
